@@ -1,6 +1,7 @@
 <template lang="pug">
 n-theme
   n-message-provider
+    Analytics
     .app-error(v-if='siteStore.criticalError')
       i.bi.bi-x-octagon-fill.me-2
       span {{siteStore.criticalError}}
@@ -13,6 +14,7 @@ n-theme
 <script setup>
 import { onBeforeUnmount ,onMounted, ref } from 'vue'
 import { NMessageProvider } from 'naive-ui'
+import { Analytics } from '@vercel/analytics/vue'
 
 import { useSiteStore } from './shared/store'
 

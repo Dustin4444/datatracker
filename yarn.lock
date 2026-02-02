@@ -2009,6 +2009,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/analytics@npm:1.6.1":
+  version: 1.6.1
+  resolution: "@vercel/analytics@npm:1.6.1"
+  peerDependencies:
+    "@remix-run/react": ^2
+    "@sveltejs/kit": ^1 || ^2
+    next: ">= 13"
+    react: ^18 || ^19 || ^19.0.0-rc
+    svelte: ">= 4"
+    vue: ^3
+    vue-router: ^4
+  peerDependenciesMeta:
+    "@remix-run/react":
+      optional: true
+    "@sveltejs/kit":
+      optional: true
+    next:
+      optional: true
+    react:
+      optional: true
+    svelte:
+      optional: true
+    vue:
+      optional: true
+    vue-router:
+      optional: true
+  checksum: 07c91bb26b0328ba59790e1563b40548959289d1b447ac9512652766d39eab96fa618ddf9b51ef2683e10bf7c1485ae8abc4834b70757c78cbaff473a1f83203
+  languageName: node
+  linkType: hard
+
 "@vitejs/plugin-vue@npm:4.6.2":
   version: 4.6.2
   resolution: "@vitejs/plugin-vue@npm:4.6.2"
@@ -7036,6 +7066,7 @@ browserlist@latest:
     "@popperjs/core": 2.11.8
     "@rollup/pluginutils": 5.1.0
     "@twuni/emojify": 1.0.2
+    "@vercel/analytics": 1.6.1
     "@vitejs/plugin-vue": 4.6.2
     "@vue/language-plugin-pug": 2.0.7
     bootstrap: 5.3.3

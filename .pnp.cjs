@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@popperjs/core", "npm:2.11.8"],\
             ["@rollup/pluginutils", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.1.0"],\
             ["@twuni/emojify", "npm:1.0.2"],\
+            ["@vercel/analytics", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.6.1"],\
             ["@vitejs/plugin-vue", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.6.2"],\
             ["@vue/language-plugin-pug", "npm:2.0.7"],\
             ["bootstrap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.3.3"],\
@@ -2692,6 +2693,52 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@ungap-structured-clone-npm-1.2.0-648f0b82e0-4f656b7b46.zip/node_modules/@ungap/structured-clone/",\
           "packageDependencies": [\
             ["@ungap/structured-clone", "npm:1.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vercel/analytics", [\
+        ["npm:1.6.1", {\
+          "packageLocation": "./.yarn/cache/@vercel-analytics-npm-1.6.1-cc058602a7-07c91bb26b.zip/node_modules/@vercel/analytics/",\
+          "packageDependencies": [\
+            ["@vercel/analytics", "npm:1.6.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.6.1", {\
+          "packageLocation": "./.yarn/__virtual__/@vercel-analytics-virtual-d0f0154ddd/0/cache/@vercel-analytics-npm-1.6.1-cc058602a7-07c91bb26b.zip/node_modules/@vercel/analytics/",\
+          "packageDependencies": [\
+            ["@vercel/analytics", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.6.1"],\
+            ["@remix-run/react", null],\
+            ["@sveltejs/kit", null],\
+            ["@types/next", null],\
+            ["@types/react", null],\
+            ["@types/remix-run__react", null],\
+            ["@types/svelte", null],\
+            ["@types/sveltejs__kit", null],\
+            ["@types/vue", null],\
+            ["@types/vue-router", null],\
+            ["next", null],\
+            ["react", null],\
+            ["svelte", null],\
+            ["vue", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.4.21"],\
+            ["vue-router", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.3.0"]\
+          ],\
+          "packagePeers": [\
+            "@remix-run/react",\
+            "@sveltejs/kit",\
+            "@types/next",\
+            "@types/react",\
+            "@types/remix-run__react",\
+            "@types/svelte",\
+            "@types/sveltejs__kit",\
+            "@types/vue-router",\
+            "@types/vue",\
+            "next",\
+            "react",\
+            "svelte",\
+            "vue-router",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8332,6 +8379,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@popperjs/core", "npm:2.11.8"],\
             ["@rollup/pluginutils", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.1.0"],\
             ["@twuni/emojify", "npm:1.0.2"],\
+            ["@vercel/analytics", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.6.1"],\
             ["@vitejs/plugin-vue", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.6.2"],\
             ["@vue/language-plugin-pug", "npm:2.0.7"],\
             ["bootstrap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.3.3"],\
