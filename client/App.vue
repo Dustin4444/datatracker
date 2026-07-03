@@ -13,6 +13,7 @@ n-theme
 <script setup>
 import { onBeforeUnmount ,onMounted, ref } from 'vue'
 import { NMessageProvider } from 'naive-ui'
+import { inject } from '@vercel/analytics'
 
 import { useSiteStore } from './shared/store'
 
@@ -47,6 +48,12 @@ updateTheme()
 
 // this change event fires for either light or dark changes
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
+
+// --------------------------------------------------------------------
+// Initialize Vercel Analytics
+// --------------------------------------------------------------------
+
+inject()
 
 // --------------------------------------------------------------------
 // Handle browser resize
