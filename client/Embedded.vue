@@ -2,12 +2,14 @@
 n-theme
   n-notification-provider
     n-message-provider
+      Analytics
       component(:is='currentComponent', :component-id='props.componentId')
 </template>
 
 <script setup>
 import { defineAsyncComponent, markRaw, onMounted, ref } from 'vue'
 import { NMessageProvider, NNotificationProvider } from 'naive-ui'
+import { Analytics } from '@vercel/analytics/vue'
 
 import NTheme from './components/n-theme.vue'
 
